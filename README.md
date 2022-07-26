@@ -10,7 +10,7 @@
 
 ## Running tests
 1. From Pycharm by running .feature file
-2. From command line by running `behave` command from project main folder
+2. From command line by running `behave --no-capture` command from project main folder
 
 
 ## Changing browser to Firefox (or any other)
