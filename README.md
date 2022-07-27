@@ -12,7 +12,8 @@
 1. From Pycharm by running .feature file
 2. From command line by running `behave --no-capture` command from project main folder
 
-
+## Running available robot
+1. python3 lib/robot.py
 ## Changing browser to Firefox (or any other)
 Change in file `./features/environment.py` lines
 

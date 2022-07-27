@@ -37,6 +37,7 @@ class GooglePage(BasePage):
         search_input.clear()
         print("INFO: Execution Round", cont)
         cont = cont + 1
+        is_valid_time= self.is_valid_time()
         
       if(is_valid_time==False):
         print("INFO: Killing Slack at -->",time.localtime().tm_hour,":",time.localtime().tm_min )
@@ -44,7 +45,4 @@ class GooglePage(BasePage):
       
       
 
-    def is_valid_time(self):
-      finalTime =  time.strptime(get_final_time(), '%H:%M:%S')
-      value = time.localtime()
-      return ((value.tm_hour==finalTime.tm_hour and value.tm_min>finalTime.tm_min)== False)
+    

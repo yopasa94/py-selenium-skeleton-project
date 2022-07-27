@@ -8,7 +8,7 @@
       "name": "Python: Current File",
       "type": "python",
       "request": "launch",
-      "program": "/home/syopasa/PersonalStudy/py-available-robot/lib/app.py",
+      "program": "/home/syopasa/PersonalStudy/py-available-robot/lib/robot.py",
       "console": "integratedTerminal",
       "justMyCode": true
     }
