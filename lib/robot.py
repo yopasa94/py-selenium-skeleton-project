@@ -1,3 +1,4 @@
+from random import randrange
 from secrets import randbelow
 import time
 from app import is_valid_time, kill_slack, open_terminal, kill_terminal
@@ -8,10 +9,10 @@ class RobotInteraction():
     isValidTime = is_valid_time()
 
     while(isValidTime==True):
-      pyautogui.mouseUp(randbelow(1000), randbelow(1000))
+      pyautogui.mouseUp(randrange(1,500), randrange(1,500))
       #open_terminal()
       #kill_terminal()
-      time.sleep(5)
+      time.sleep(10*5)
       isValidTime=is_valid_time()
 
     if(isValidTime==False):
