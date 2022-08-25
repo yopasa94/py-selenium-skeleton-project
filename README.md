@@ -2,7 +2,7 @@
 
 ## Requirements
 1. python3.7
-2. pip
+2. pip | pip3
 3. latest chrome browser
 
 ## Installation
@@ -28,3 +28,11 @@ to
 path = driver.install(browser=driver.firefox)
 context.behave_driver = behave_webdriver.Firefox(path)
 ```
+
+# MAC SET UP
+Install Pip
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+
+python3 get-pip.py
+
+pip install autogui
